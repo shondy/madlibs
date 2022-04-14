@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+  <title>Let's play a game!</title>
+  <link rel="stylesheet" href="static/madlibs.css">
+</head>
+<body>
+  <h3>Let's choose you personatily:</h3>
+
+  <form action="/madlib">
+    <ul class="form-style-1">
+      <li>
+        <label>Person (alias)</label>
+        <input type="text" name="alias"  class="field-input"/>
+      </li>      
+      <li>
+        <label for="color">Choose a color:</label>
+        <input type="radio" name="color" value="green">
+        <label>Green</label>
+        <input type="radio" name="color" value="yellow">
+        <label>Yellow</label>
+        <input type="radio" name="color" value="red">
+        <label>Red</label>
+      </li>
+      <li>
+        <label for="noun">Role (noun)</label>
+        <select name="noun" class="field-select">
+          <option value=""></option>
+          <option value="Cartographer">Cartographer</option>
+          <option value="Artist">Artist</option>
+          <option value="Fisherman">Fisherman</option>
+          <option value="Leatherworker">Leatherworker</option>
+          <option value="Farmer">Farmer</option>
+          <option value="Librarian">Librarian</option>
+          <option value="Toolsmith">Toolsmith</option>
+        </select>
+      </li>
+      <li>
+        <label for="adjective">Character (adjective):</label>
+        <select name="adjective" id="adjective" class="field-select">
+          <option value=""></option>
+          <option value="Honest">Honest</option>
+          <option value="Brave">Brave</option>
+          <option value="Compassionate">Compassionate</option>
+          <option value="Courageous">Courageous</option>
+          <option value="Unselfish">Unselfish</option>
+          <option value="Loyal">Loyal</option>
+          <option value="Leader">Leader</option>
+        </select>
+      </li>
+      <li>
+        <label>Choose the flowers:</label>
+        <input type="checkbox" name="flowers" value="rose">
+        <label>Rose</label>
+
+        <input type="checkbox" name="flowers" value="lily">
+        <label>Lily</label>
+
+        <input type="checkbox" name="flowers" value="sunflower">
+        <label>Sunflower</label>
+
+         <input type="checkbox" name="flowers"s value="tulip">
+        <label>Tulip:</label> 
+      </li>
+      <li>
+        <input type="submit" value="Submit" id="btn" />
+      </li>
+      </ul>      
+       </form>      
+    
+</body>
+</html>

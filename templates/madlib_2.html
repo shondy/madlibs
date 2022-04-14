@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <title>Madlibs :: Yay!</title>
+  <link rel="stylesheet" href="static/madlibs.css">
+</head>
+<body id="world_2">
+
+    <h2>WELCOME to MADLIB 2!</h2>
+  <p>      
+    There once was a <strong>{{ color }}</strong> <strong>{{ noun }}</strong> sitting in the Hackbright Lab.<br >
+When <strong>{{ alias }}</strong> went to pick it up, it burst into flames in a totally
+<strong>{{ adjective }}</strong> way.
+  </p>
+  <p>
+    <ul>
+      {% for flower in flowers %}
+      <li>
+          {{ flower }}
+      </li>
+      {% endfor %}
+    </ul>
+  </p>
+</body>
+</html>
